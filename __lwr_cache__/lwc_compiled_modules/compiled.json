@@ -1,0 +1,66 @@
+[
+  [
+    "lwr/esmLoader@0.8.15",
+    {
+      "ownHash": "8e75fc5540bbcccc03fada493d4b96da",
+      "module": "./cache/lwr_esmLoader_0_8_15.js",
+      "moduleMeta": "./cache/lwr_esmLoader_0_8_15.meta.json"
+    }
+  ],
+  [
+    "lwr/preInit@0.8.15",
+    {
+      "ownHash": "4abc90ae314e383e4c23f4dc607d9643",
+      "module": "./cache/lwr_preInit_0_8_15.js",
+      "moduleMeta": "./cache/lwr_preInit_0_8_15.meta.json"
+    }
+  ],
+  [
+    "lwr/hmr@0.8.15",
+    {
+      "ownHash": "b6c05a5d79ea66f651b367c2a6190189",
+      "module": "./cache/lwr_hmr_0_8_15.js",
+      "moduleMeta": "./cache/lwr_hmr_0_8_15.meta.json"
+    }
+  ],
+  [
+    "lwr/init@0.8.15",
+    {
+      "ownHash": "6258bcb20cc2d5d6a9f3c5a6f9d0acaf",
+      "module": "./cache/lwr_init_0_8_15.js",
+      "moduleMeta": "./cache/lwr_init_0_8_15.meta.json"
+    }
+  ],
+  [
+    "lwr/hmr#util/swap@0.8.15",
+    {
+      "ownHash": "b90e85947b9514fa4d53fbced946e451",
+      "module": "./cache/lwr_hmr_util_swap_0_8_15.js",
+      "moduleMeta": "./cache/lwr_hmr_util_swap_0_8_15.meta.json"
+    }
+  ],
+  [
+    "lwr/metrics@0.8.15",
+    {
+      "ownHash": "dfbc827104d50ff7d16b59c9d0e06aca",
+      "module": "./cache/lwr_metrics_0_8_15.js",
+      "moduleMeta": "./cache/lwr_metrics_0_8_15.meta.json"
+    }
+  ],
+  [
+    "lwr/profiler@0.8.15",
+    {
+      "ownHash": "5a10236d8c52bc9f6dee22875cd7016d",
+      "module": "./cache/lwr_profiler_0_8_15.js",
+      "moduleMeta": "./cache/lwr_profiler_0_8_15.meta.json"
+    }
+  ],
+  [
+    "lwc@2.45.1",
+    {
+      "ownHash": "472123674346cd28fdcdfc514a8125d8",
+      "module": "./cache/lwc_2_45_1.js",
+      "moduleMeta": "./cache/lwc_2_45_1.meta.json"
+    }
+  ]
+]

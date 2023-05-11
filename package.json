@@ -1,0 +1,24 @@
+{
+  "name": "vercel-testing",
+  "version": "1.0.0",
+  "description": "node express testing",
+  "main": "scripts/test.mjs",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "node scripts/test.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "jsforce-ajax-proxy": "^2.0.0",
+    "lightning-base-components": "^1.13.9-alpha",
+    "lwr": "^0.8.14",
+    "nodemon": "^2.0.15",
+    "node": "^16.13.1"
+  }
+}
