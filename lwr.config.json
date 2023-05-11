@@ -10,13 +10,13 @@
         {
             "id": "Home",
             "path": "/",
-            "contentTemplate": "$contentDir/home.md",
+            "contentTemplate": "$contentDir/home.html",
             "layoutTemplate": "$layoutsDir/main_layout.njk"
         },
         {
             "id": "About",
             "path": "/about",
-            "contentTemplate": "$contentDir/about.md",
+            "contentTemplate": "$contentDir/about.html",
             "layoutTemplate": "$layoutsDir/main_layout.njk"
         },
         {
@@ -33,7 +33,7 @@
     "errorRoutes":  [
        { "id": "not_found",
        "status": 404,
-       "contentTemplate":"$contentDir/404.md"
+       "contentTemplate":"$contentDir/404.html"
     }
     ],
     "assets": [

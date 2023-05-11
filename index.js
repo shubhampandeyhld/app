@@ -4,6 +4,10 @@ var express = require('express');
 const { json } = require('express');
 const app = express()
 const port = process.env.PORT || 3000
+const path = require('path');
+const DIST_DIR = 'src/layouts';
+
+app.use(express.static(DIST_DIR));
 /*
 const {URL, username , password ,token} = process.env
 console.log(URL)
@@ -13,8 +17,15 @@ var conn = new jsforce.Connection({
 });*/
 app.get("/",(req,res)=>{
   console.log('called')
- res.json("hello")
+  console.log(DIST_DIR)
+  res.render(path.resolve(DIST_DIR, 'main_layout.njk'));
+
 })
+
+
+
+
+
 app.get('/ipl',(req,res1)=>{
 
 
